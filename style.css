@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc; /* Couleur de fond par défaut */
+    margin: 20px auto;
+}
+
+#change_color {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#change_color:hover {
+    background-color: #0056b3;
+}
