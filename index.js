@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const colorBox = document.getElementById("color-box");
-    const changeColorBtn = document.getElementById("change-color-btn");
+    const color_box = document.getElementById("color-box");
+    const changeColorBtn = document.getElementById("change_color");
 
-    function getRandomColor() {
+    function changement_couleur() {
         // Générer des valeurs aléatoires pour les composantes RGB
         const red = Math.floor(Math.random() * 256);
         const green = Math.floor(Math.random() * 256);
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Ajouter un écouteur d'événement au bouton pour changer la couleur
     changeColorBtn.addEventListener("click", function() {
-        const randomColor = getRandomColor();
-        colorBox.style.backgroundColor = randomColor;
+        const application_color = changement_couleur();
+        color_box.style.backgroundColor = application_color;
     });
 });
